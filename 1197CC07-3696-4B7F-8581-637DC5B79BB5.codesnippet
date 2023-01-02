@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>mapper</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import ObjectMapper
+
+class &lt;#name#&gt;RS: Mappable {
+    
+    var &lt;#name#&gt;: &lt;#type#&gt;!    
+    required init?(map: Map) {
+        
+    }
+    
+    init() {
+    }
+    
+    func mapping(map: Map) {
+        &lt;#name#&gt; &lt;- map["&lt;#key#&gt;"]
+    }
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1197CC07-3696-4B7F-8581-637DC5B79BB5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates model for Object Mapper comming from network</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Object Mapper Model</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
